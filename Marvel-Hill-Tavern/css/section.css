@@ -1,0 +1,57 @@
+/* index.html Section */
+.about-section {
+    padding: 2%;
+}
+
+img {
+    max-width: 100%; /* Ensures the image scales within its container */
+    height: auto;    /* Maintains the aspect ratio */
+    display: block;  /* Removes any extra space below the image */
+}
+
+.menu-image {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.menu-image img {
+    max-width: 90%; /* Limits the image width to 90% of its container */
+    margin: auto;   /* Centers the image vertically in its container */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+}
+
+.content-section {
+    background-color: var(--surface-color); /* Replace --surface-color with the actual color if needed */
+    text-align: center; /* Centers content, adjust if needed */
+    padding: 20px; /* Adds spacing around the content */
+    border-radius: 10px; /* Optional: Rounded corners */
+  }
+  
+  .front1-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; /* Ensures image is responsive */
+    height: auto; /* Maintains aspect ratio */
+    margin-bottom: 15px; /* Adds spacing below the image */
+  }
+  
+  h2 {
+    margin: 10px 0; /* Adjusts margin for better spacing */
+  }
+  
+  p {
+    margin: 10px 0; /* Adjusts margin for better spacing */
+    color: #e0e0e0; /* Optional: Text color */
+  }
+  
+
+
+/*contact.html*/
+.map-container {
+    max-width: 80px;
+    margin-top: 40px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
