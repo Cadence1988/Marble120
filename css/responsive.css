@@ -1,0 +1,125 @@
+/* small screens */
+@media(max-width:640px) {
+    html {
+        font-size: 10px;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    header h1 {
+        text-transform: uppercase;
+    }
+
+    .nav-options {
+        flex-direction: column;
+    }
+
+    .logo {
+        width: 100%;
+        margin: 1rem 0px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+
+    .menu-image img {
+        max-width: 100%;
+    }
+
+    footer {
+        padding: 1rem 0;
+    }
+
+    footer p {
+        font-size: 1rem;
+    }
+
+    footer .social-icons img {
+        width: 25px;
+        margin: 0 0.3rem;
+    }
+
+    /* Contact Section */
+    .contact-section {
+        flex-direction: column;
+        justify-content: space-between; /* Add space between contact info and map */
+        align-items: flex-start; /* Align items at the top */
+        padding: 20px;
+        gap: 20px; /* Add space between the elements */
+    }
+
+    .contact-info {
+        width: 100%; /* Adjust width for left content */
+        text-align: center;
+        padding: 10px;
+        font-size: 1rem; /* Adjust as needed for text size */
+        color: #e0e0e0;
+        line-height: 1.6;
+    }
+
+    .map-container {
+        width: 100%; /* Set the desired width for the map */
+        height: 300px; /* 8 inches = ~500px */
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+}
+
+/* tablets */
+@media(min-width: 641px) and (max-width: 1007px) {
+    html {
+        font-size: 13px;
+    }
+
+    .logo {
+        width: 100%;
+        margin: 1rem 0px;
+    }
+
+    .menu-image img {
+        max-width: 80%;
+    }
+
+    header {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    footer {
+        padding: 1.5rem 0;
+    }
+    footer p {
+        font-size: 1.1rem;
+    }
+    footer .social-icons img {
+        width: 28px;
+    }
+}
+
+/* large screen */
+@media(min-width: 1008px) {
+    html {
+        font-size: 16px;
+    }
+
+    .logo {
+        width: 100%;
+        margin: 1rem 0px;
+    }
+
+    footer {
+        padding: 2rem 0;
+    }
+    footer p {
+        font-size: 1.2rem;
+    }
+    footer .social-icons img {
+        width: 30px;
+    }
+}

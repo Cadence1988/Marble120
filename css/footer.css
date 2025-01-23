@@ -1,0 +1,32 @@
+.site-footer {
+    background-color: #2c2c2c; /* Same background as header */
+    color: #f5f5f5; /* Neutral text color */
+    text-align: center; /* Center text and content */
+    padding: 2rem 1rem; /* Space inside the footer */
+    font-size: 1.1rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between; /* Space out elements */
+    align-items: center;
+    flex-wrap: wrap; /* Ensure wrapping on small screens */
+    max-width: 1200px; /* Limit the width of the footer */
+    margin: 0 auto; /* Center the footer content */
+}
+
+.footer-content p {
+    margin: 0; /* Remove default margins */
+    font-size: 1rem; /* Adjust text size */
+}
+
+.social-links a {
+    margin-left: 1rem; /* Add spacing between links */
+    text-decoration: none; /* Remove underline */
+    display: inline-block;
+}
+
+.social-links img {
+    width: 24px; /* Size of the social media icons */
+    height: 24px;
+}
