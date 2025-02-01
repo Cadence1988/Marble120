@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link 
+href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+AU+SA:wght@100..400&display=swap" rel="stylesheet">
+<link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/glacial-indifference" type="text/css"/>
+
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/section.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <title>Contact</title>
+</head>
+<body>
+        <header class="center-row">
+            <!--Left side-->
+            <div class="logo center-row">
+                <img src="/img/logo.png" alt="">
+            </div>
+            <!-- Right Side-->
+            <h1>Marble Hill Tavern</h1>
+            <nav class="nav-menu">
+                <!-- Hamburger Button-->
+
+                <!-- Menu Options-->
+                <div class="nav-options center-row">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="menu.html">Menu</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </nav>
+        </header>
+
+            <main class="contact-section">
+                <h1>Contact</h1>
+                
+                    <!-- Contact Form-->
+                <section>
+                    <div class="contact-info">
+                        <h2>Contact Us</h2>
+                        <p>Phone: (770) 456-7890</p>
+                        <p>Email: info@marblehilltavern.com</p>
+
+                        <form action="/send-email" method="POST">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required>
+            
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" required>
+            
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+            
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+            
+                            <button type="submit">Send Message</button>
+                        </form>
+                    </div>
+                </section>
+
+                <section>
+                    <div class="">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3291.4972638047675!2d-84.2817275!3d34.4141221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885f80321f04f0bd%3A0xdbd9fa67e2bad2ca!2s218%20Foothills%20Pkwy%2C%20Marble%20Hill%2C%20GA%2030148!5e0!3m2!1sen!2sus!4v1737080383318!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </section>
+
+
+            </main>
+
+        
+
+        <footer class="site-footer">
+            <div class="footer-content center-row">
+                <p>&copy; 2025 Marble Hill Tavern. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/profile.php?id-61564052892983&name=xhp_nt_fb_action_open_user" target="_blank" aria-label="Facebook">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                          </svg>
+                    </a>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>
